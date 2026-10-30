@@ -1,0 +1,3 @@
+CONTAINER ID   IMAGE                COMMAND                  CREATED         STATUS          PORTS                                                                                          NAMES
+334f77070f55   785835ea65db         "/docker-entrypoint.…"   3 minutes ago   Up 3 minutes    0.0.0.0:8082->80/tcp                                                                           terraform-nginx
+1ceba16bbe25   jenkins-docker-lab   "/usr/bin/tini -- /u…"   47 hours ago    Up 47 minutes   0.0.0.0:8080->8080/tcp, [::]:8080->8080/tcp, 0.0.0.0:50000->50000/tcp, [::]:50000->50000/tcp   jenkins
